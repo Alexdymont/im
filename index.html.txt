@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Пакеты с логотипом<title>
+	</head>
+	<body>
+		<h1>Аюрпак: пакеты с логотипом</h1>
+			<ol>
+			<li><a href="index.html">Главная</a><li>
+			<li><a href="catalog.html">Каталог</a><li>
+			<li><a href="contacts.html">Контакты</a><li>
+		</ol>
+		<hr>
+		<p>Компания Аюрпак - мы производим пакеты с вашим логотипом уже 20 лет!</p>
+		<hr>
+		<p>&copy;Все права защищены</p>
+	</body>
+</html>

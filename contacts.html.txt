@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Контакты</title>
+	</head>
+	<body>
+		<h1>Аюрпак: пакеты с логотипом</h1>
+			<ol>
+			<li><a href="index.html">Главная</a><li>
+			<li><a href="catalog.html">Каталог</a><li>
+			<li><a href="contacts.html">Контакты</a><li>
+		</ol>
+		<hr>
+		<h2>Контакты</h2>
+		<ul>
+			<li>тел:  +7 (383) 383-01-85</li>
+			<li>e-mail:  info@aurpak.ru</li>
+			<li>адрес:  ул. Королева 40, к.40, 1 этаж, отдельный вход</li>
+		</ul>
+		<hr>
+		<p>&copy;Все права защищены</p>
+	</body>
+</html>
