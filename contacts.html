@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="ru">
 	<head>
 		<title>Контакты</title>
 	</head>
@@ -7,22 +7,36 @@
 		<header>
 			<a href="index.html"><img src="img/logo_main.jpg" alt="Логотип компании" height="70px"></a>
 			<h1>Аюрпак: пакеты с логотипом</h1>
-			<nav>
+			<nav class="main-menu">
 				<ul>
 					<li class ="menu-item"><a href="index.html">Главная</a></li>
 					<li class ="menu-item"><a href="catalog.html">Каталог</a></li>
 					<li class ="menu-item"><a href="contacts.html">Контакты</a></li>
+					<li class ="menu-item"><a href="delivery.html">Доставка</a></li>
 				</ul>
 			</nav>
 		</header>
-		<section class="contacts">
-			<h2 class="title">Контакты</h2>
-			<ul>
-				<li class="element">тел:  +7 (383) 383-01-85</li>
-				<li class="element">e-mail:  info@aurpak.ru</li>
-				<li class="element">адрес:  ул. Королева 40, к.40, 1 этаж, отдельный вход</li>
-			</ul>
-		</section>
+		<main>
+			<section class="contacts">
+				<h2 class="title">Контакты</h2>
+				<ul>
+					<li class="element">тел:  +7 (383) 383-01-85</li>
+					<li class="element">e-mail:  info@aurpak.ru</li>
+					<li class="element">адрес:  ул. Королева 40, к.40, 1 этаж, отдельный вход</li>
+				</ul>
+			</section>
+			<form>
+				<fieldset>
+					<legend>Свяжитесь с нами:</legend>
+					<label>Имя:<br><input type="text" name="username" /></label><br>
+					<label>E-mail:<br><input type="text" name="email" /></label><br>
+					<label>Телефон:<br><input type="text" name="phone" /></label><br>
+					<p>Сообщение:</p>
+					<textarea name="comments" cols="16" rows="4"></textarea><br>
+					<input type="submit" value="Отправить" />
+				</fieldset>
+			</form>
+		</main>
 		<footer>
 			<p>&copy;Все права защищены</p>
 			<nav>
@@ -30,6 +44,7 @@
 					<li class ="menu-item"><a href="index.html">Главная</a></li>
 					<li class ="menu-item"><a href="catalog.html">Каталог</a></li>
 					<li class ="menu-item"><a href="contacts.html">Контакты</a></li>
+					<li class ="menu-item"><a href="delivery.html">Доставка</a></li>
 				</ul>
 			</nav>
 		</footer>
